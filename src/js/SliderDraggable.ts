@@ -109,7 +109,7 @@ module Slider {
 				this.mouseDown(event);
 			});
 
-			this.bind(this.$el, Draggable.EVENT_UP, (event:any)=> {
+			this.bind($("body"), Draggable.EVENT_UP, (event:any)=> {
 				this.mouseUp(event);
 			});
 
